@@ -23,4 +23,4 @@ def attrib():
     attribVals6 = str(rand.attribute())
     return(template('default',row=attribVals,row2=attribVals2,row3=attribVals3,row4=attribVals4,row5=attribVals5,row6=attribVals6))
 
-run(host='localhost', port=8080, debug=True)
+run(host='0.0.0.0', port=80, debug=True)
